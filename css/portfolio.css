@@ -60,6 +60,59 @@ ul {
   color: teal;
 }
 
+/* nav-section */
+
+.section-menu .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.section-menu .link.current {
+  color: var(--accent-color);
+}
+
+.section-menu .link:hover,
+.section-menu .link:focus {
+  color: #ff0000;
+}
+
+.section-menu .link:active {
+  color: teal;
+}
+
+.section-menu .link {
+  color: var(--primary-text-color);
+}
+
+.section-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.section-contacts-mail {
+  color: var(--accent-color);
+}
+
+.section-contacts-mail:hover,
+.section-contacts-mail:focus {
+  color: #ff0000;
+}
+
+.section-contacts-mail:active {
+  color: teal;
+}
+
+.section-contacts {
+  color: var(--primary-text-color);
+}
+
+.section-contacts:hover,
+.section-contacts:focus {
+  color: #ff0000;
+}
 /* Button */
 
 .button {
