@@ -1,0 +1,195 @@
+/* цвет основного текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* белый #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: "Roboto", sans-serif;
+}
+
+/* Применится ко всем тегам с классом ul */
+
+ul {
+  list-style: none;
+}
+
+/* Применится ко всем тегам с классом a */
+
+.section-menu a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.section-contacts a,
+.contacts a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Site Nav */
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo span {
+  color: #000000;
+}
+
+.logo:hover {
+  color: #ff0000;
+}
+
+.logo:active {
+  color: teal;
+}
+
+/* nav-section */
+
+.section-menu .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.section-menu .link.current {
+  color: var(--accent-color);
+}
+
+.section-menu .link:hover,
+.section-menu .link:focus {
+  color: #ff0000;
+}
+
+.section-menu .link:active {
+  color: teal;
+}
+
+.section-menu .link {
+  color: var(--primary-text-color);
+}
+
+.section-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.section-contacts-mail {
+  color: var(--primary-text-color);
+}
+
+.section-contacts-mail:hover,
+.section-contacts-mail:focus {
+  color: var(--accent-color);
+}
+
+.section-contacts-mail:active {
+  color: teal;
+}
+
+.section-contacts {
+  color: var(--primary-text-color);
+}
+
+.section-contacts:hover,
+.section-contacts:focus {
+  color: #ff0000;
+}
+
+/* Footer */
+
+.footer {
+  background: #2f303a;
+}
+
+.footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer {
+  color: var(--accent-color);
+}
+
+.footer span {
+  color: #ffffff;
+}
+
+.footer:hover {
+  color: #ff0000;
+}
+
+.footer:active {
+  color: teal;
+}
+
+.contacts .address {
+  color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contacts .address:hover,
+.contacts .address:focus {
+  color: #ff0000;
+}
+
+.contacts .address:active {
+  color: teal;
+}
+
+.contacts .mail,
+.contacts .tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contacts .mail:hover,
+.contacts .mail:focus {
+  color: #ff0000;
+}
+
+.contacts .mail:active {
+  color: teal;
+}
+
+.contacts .tel:hover,
+.contacts .tel:focus {
+  color: #ff0000;
+}
+
+.contacts .tel:active {
+  color: teal;
+}
