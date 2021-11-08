@@ -1,7 +1,29 @@
+/* nav-section */
+
+.section-contacts-mail {
+  color: var(--primary-text-color);
+}
+
+.section-contacts-mail:hover,
+.section-contacts-mail:focus {
+  color: var(--accent-color);
+}
+
+.section-contacts-mail:active {
+  color: teal;
+}
+
 /* Filters section */
 
 .filter {
   color: #212121;
+}
+
+.button {
+  padding: 10px 15px;
+  outline: none;
+  cursor: pointer;
+  min-width: 100px;
 }
 
 .button {
@@ -19,7 +41,6 @@
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   border-color: transparent;
-  cursor: pointer;
 }
 
 .button.websites,
@@ -29,12 +50,12 @@
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   border-color: transparent;
-  cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
   margin: 10px;
+  width: 140px;
   display: block;
   padding: 5px;
   border: none;
