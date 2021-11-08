@@ -1,12 +1,8 @@
 /* nav-section */
 
-.section-contacts-mail {
-  color: var(--accent-color);
-}
-
 .section-contacts-mail:hover,
 .section-contacts-mail:focus {
-  color: #ff0000;
+  color: var(--accent-color);
 }
 
 .section-contacts-mail:active {

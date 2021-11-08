@@ -62,10 +62,7 @@ ul {
 .logo:hover,
 .logo:focus {
   color: #ff0000;
-  display: block;
-  padding: 5px;
-  border: none;
-  box-shadow: 0 0 0 3px #ff0000;
+  cursor: pointer;
 }
 
 .logo:active {
@@ -91,7 +88,7 @@ ul {
   display: block;
   padding: 5px;
   border: none;
-  box-shadow: 0 0 0 3px #ff0000;
+  cursor: pointer;
 }
 
 .section-menu .link:active {
@@ -104,7 +101,7 @@ ul {
 
 .section-contacts-mail,
 .section-contacts-nomer {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -118,7 +115,7 @@ ul {
   display: block;
   padding: 5px;
   border: none;
-  box-shadow: 0 0 0 3px #ff0000;
+  cursor: pointer;
 }
 
 .section-contacts-nomer:hover,
@@ -128,7 +125,7 @@ ul {
   display: block;
   padding: 5px;
   border: none;
-  box-shadow: 0 0 0 3px #ff0000;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -154,8 +151,10 @@ ul {
   color: #ffffff;
 }
 
-.footer:hover {
+.footer:hover,
+.footer:focus {
   color: #ff0000;
+  cursor: pointer;
 }
 
 .footer:active {
@@ -164,6 +163,7 @@ ul {
 
 .contacts .address {
   color: var(--primary-white-color);
+  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -173,6 +173,7 @@ ul {
 .contacts .address:hover,
 .contacts .address:focus {
   color: #ff0000;
+  cursor: pointer;
 }
 
 .contacts .address:active {
@@ -182,6 +183,7 @@ ul {
 .contacts .mail,
 .contacts .tel {
   color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -191,6 +193,7 @@ ul {
 .contacts .mail:hover,
 .contacts .mail:focus {
   color: #ff0000;
+  cursor: pointer;
 }
 
 .contacts .mail:active {
@@ -200,6 +203,7 @@ ul {
 .contacts .tel:hover,
 .contacts .tel:focus {
   color: #ff0000;
+  cursor: pointer;
 }
 
 .contacts .tel:active {

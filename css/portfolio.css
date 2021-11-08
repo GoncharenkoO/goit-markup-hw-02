@@ -1,7 +1,7 @@
 /* nav-section */
 
 .section-contacts-mail {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 
 .section-contacts-mail:hover,
@@ -20,10 +20,11 @@
 }
 
 .button {
-  padding: 10px 15px;
-  outline: none;
+  width: 180px;
+  height: 80px;
+  font-size: 15px;
   cursor: pointer;
-  min-width: 100px;
+  border-radius: 4px;
 }
 
 .button {
