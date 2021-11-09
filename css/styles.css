@@ -5,10 +5,6 @@
   color: var(--accent-color);
 }
 
-.section-contacts-mail:active {
-  color: teal;
-}
-
 /* Hero */
 
 .hero {

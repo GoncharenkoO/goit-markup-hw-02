@@ -9,10 +9,6 @@
   color: var(--accent-color);
 }
 
-.section-contacts-mail:active {
-  color: teal;
-}
-
 /* Filters section */
 
 .filter {
@@ -20,11 +16,12 @@
 }
 
 .button {
-  width: 180px;
-  height: 80px;
+  width: 145px;
+  height: 38px;
   font-size: 15px;
   cursor: pointer;
   border-radius: 4px;
+  top: 174px;
 }
 
 .button {
@@ -55,12 +52,9 @@
 
 .button:hover,
 .button:focus {
-  margin: 10px;
-  width: 140px;
-  display: block;
-  padding: 5px;
-  border: none;
-  box-shadow: 0 0 0 3px #ff0000;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .section .title {
