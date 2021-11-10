@@ -1,14 +1,3 @@
-/* nav-section */
-
-.section-contacts-mail {
-  color: var(--title-text-color);
-}
-
-.section-contacts-mail:hover,
-.section-contacts-mail:focus {
-  color: var(--accent-color);
-}
-
 /* Filters section */
 
 .filter {
@@ -16,35 +5,17 @@
 }
 
 .button {
-  width: 145px;
-  height: 38px;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
   border-radius: 4px;
   top: 174px;
 }
 
 .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.button.primary {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  border-color: transparent;
-}
-
-.button.websites,
-.button.application,
-.button.design,
-.button.marketing {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   border-color: transparent;
@@ -52,6 +23,7 @@
 
 .button:hover,
 .button:focus {
+  color: var(--primary-white-color);
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
