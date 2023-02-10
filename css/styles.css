@@ -1,5 +1,5 @@
 :root {
-	--main-white-color: #rgba(255, 255, 255, 1);
+	--main-white-color: rgba(255, 255, 255, 1);
 	--main-font: "Roboto", sans-serif;
 	--secondary-font: "Raleway", sans-serif;
 	--primary-color-text: rgba(46, 47, 66, 1);
@@ -8,6 +8,7 @@
 	--text-cornflower-color: rgba(231, 233, 252, 1);
 	--iris-color: rgba(77, 90, 229, 1);
 	--ocean-color: rgba(64, 75, 191, 1);
+	--btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 body {
@@ -16,11 +17,11 @@ body {
 	color: var(--primary-color-text);
 }
 
-ul {
+.list {
 	list-style: none;
 }
 
-a {
+.decor {
 	text-decoration: none;
 }
 
@@ -29,9 +30,7 @@ a {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 133.333333%; /* 24/18 */
-
-	display: flex;
-	align-items: center;
+	text-align: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 
@@ -75,9 +74,7 @@ a {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 116.666667%; /* 21/18 */
-
-	display: flex;
-	align-items: center;
+	text-align: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 
@@ -93,5 +90,18 @@ a {
 	line-height: 150%; /* 24/16 */
 	letter-spacing: 0.02em;
 
-  color: var(--text-cornflower-color);
+	color: var(--text-cornflower-color);
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
