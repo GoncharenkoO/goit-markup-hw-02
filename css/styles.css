@@ -1,0 +1,97 @@
+:root {
+	--main-white-color: #rgba(255, 255, 255, 1);
+	--main-font: "Roboto", sans-serif;
+	--secondary-font: "Raleway", sans-serif;
+	--primary-color-text: rgba(46, 47, 66, 1);
+	--secondary-color-text: rgba(67, 68, 85, 1);
+	--text-cloud-color: rgba(244, 244, 253, 1);
+	--text-cornflower-color: rgba(231, 233, 252, 1);
+	--iris-color: rgba(77, 90, 229, 1);
+	--ocean-color: rgba(64, 75, 191, 1);
+}
+
+body {
+	background-color: var(--main-white-color);
+	font-family: var(--main-font);
+	color: var(--primary-color-text);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	font-family: var(--secondary-font);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 133.333333%; /* 24/18 */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: var(--iris-color);
+}
+.logo span {
+	color: var(--primary-color-text);
+}
+.nav-header .link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%; /* 24/16 */
+	letter-spacing: 0.02em;
+
+	color: var(--primary-color-text);
+}
+.nav-header .link:hover,
+.nav-header .link:hover {
+	color: var(--ocean-color);
+}
+.contacts-header .link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%; /* 24/16 */
+	letter-spacing: 0.02em;
+
+	color: var(--secondary-color-text);
+}
+.contacts-header .link:hover,
+.contacts-header .link:hover {
+	color: var(--ocean-color);
+}
+.footer-page {
+	background-color: var(--primary-color-text);
+}
+.footer-logo {
+	width: 44px;
+	height: 24px;
+	font-family: var(--secondary-font);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 116.666667%; /* 21/18 */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: var(--iris-color);
+}
+.footer-logo span {
+	color: var(--text-cloud-color);
+}
+.footer-text {
+	font-family: var(--main-font);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%; /* 24/16 */
+	letter-spacing: 0.02em;
+
+  color: var(--text-cornflower-color);
+}
