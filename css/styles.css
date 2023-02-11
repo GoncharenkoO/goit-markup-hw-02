@@ -51,6 +51,9 @@ body {
 .nav-header .link:hover {
 	color: var(--ocean-color);
 }
+.nav-header .link.current {
+	color: var(--ocean-color);
+}
 .contacts-header .link {
 	font-style: normal;
 	font-weight: 400;

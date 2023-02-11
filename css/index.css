@@ -52,6 +52,9 @@
 	letter-spacing: 0.02em;
 	color: var(--secondary-color-text);
 }
+.team {
+	background-color: var(--text-cloud-color);
+}
 .team .title {
 	font-weight: 500;
 	font-size: 20px;
