@@ -1,13 +1,13 @@
 :root {
-	--main-white-color: rgba(255, 255, 255, 1);
+	--main-white-color: #fff;
 	--main-font: "Roboto", sans-serif;
 	--secondary-font: "Raleway", sans-serif;
-	--primary-color-text: rgba(46, 47, 66, 1);
-	--secondary-color-text: rgba(67, 68, 85, 1);
-	--text-cloud-color: rgba(244, 244, 253, 1);
-	--text-cornflower-color: rgba(231, 233, 252, 1);
-	--iris-color: rgba(77, 90, 229, 1);
-	--ocean-color: rgba(64, 75, 191, 1);
+	--primary-color-text: #2e2f42;
+	--secondary-color-text: #434455;
+	--text-cloud-color: #f4f4fd;
+	--text-cornflower-color: #e7e9fc;
+	--iris-color: #4d5ae5;
+	--ocean-color: #404bbf;
 	--btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -29,7 +29,7 @@ body {
 	font-family: var(--secondary-font);
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 133.333333%; /* 24/18 */
+	line-height: 1.3; /* 24/18 */
 	text-align: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
@@ -42,7 +42,7 @@ body {
 .nav-header .link {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 150%; /* 24/16 */
+	line-height: 1.5; /* 24/16 */
 	letter-spacing: 0.02em;
 
 	color: var(--primary-color-text);
@@ -58,7 +58,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 150%; /* 24/16 */
+	line-height: 1.5; /* 24/16 */
 	letter-spacing: 0.02em;
 
 	color: var(--secondary-color-text);
@@ -76,7 +76,7 @@ body {
 	font-family: var(--secondary-font);
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 116.666667%; /* 21/18 */
+	line-height: 1.17; /* 21/18 */
 	text-align: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
@@ -90,7 +90,7 @@ body {
 	font-family: var(--main-font);
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 150%; /* 24/16 */
+	line-height: 1.5; /* 24/16 */
 	letter-spacing: 0.02em;
 
 	color: var(--text-cornflower-color);
